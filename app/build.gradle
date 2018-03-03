@@ -20,5 +20,8 @@ android {
 }
 
 dependencies {
+	compile 'com.android.support:appcompat-v7:+'
+	compile 'com.squareup.retrofit2:retrofit:+'
+	compile 'com.squareup.okio:okio:+'
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
